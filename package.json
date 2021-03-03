@@ -1,17 +1,25 @@
 {
-  "name": "miniwhoani",
+  "name": "miniwhoami",
   "version": "1.0.0",
-  "description": "Aufgabe 1",
+  "description": "Small whoami changing its color on hostname",
   "main": "miniwhoami.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "martin.leischner@h-brs.de",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennerwein/miniwhoami.git"
+  },
+  "author": "Martin Leischner",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jennerwein/miniwhoami/issues"
+  },
+  "homepage": "https://github.com/jennerwein/miniwhoami#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "internal-ip": "^6.1.0",
+    "internal-ip": "^6.2.0",
     "ip": "^1.1.5",
-    "pug": "^3.0.1"
+    "pug": "^3.0.2"
   }
 }
